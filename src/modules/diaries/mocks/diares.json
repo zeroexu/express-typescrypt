@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "date": "10-01-2022",
+    "wheater": "rainy",
+    "visibility": "good",
+    "comment": "Averithing is ok"
+  },
+  {
+    "id": 2,
+    "date": "10-01-2022",
+    "wheater": "rainy",
+    "visibility": "good",
+    "comment": "I remembered where is the umbrella"
+  }
+]
