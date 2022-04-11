@@ -1,6 +1,11 @@
 import express from "express";
 import { addDiaries } from "./controllers";
-const router = express.Router();
 
-router.get("/");
-router.post("/diaries", addDiaries);
+export default () => {
+  const router = express.Router();
+  router.get("/diaries", (_req, res) => {
+    res.send("OK");
+  });
+  router.post("/diaries", addDiaries);
+  return router;
+};
